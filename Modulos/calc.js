@@ -1,13 +1,9 @@
-function soma(a,b){
-    return a + b;
-}
-function sub(a,b){
-    return a-b;
-}
-function mult(a,b){
-    return a*b;
-}
-function div(a,b){
-    return a/b;
-}
-console.log(sub(2,3))
+var somaFunc = require("./soma");
+var subFunc = require("./sub");
+var multFunc = require("./mult");
+var divFunc = require("./div");
+
+console.log(somaFunc(1,2));
+console.log(subFunc(5,2));
+console.log(multFunc(2,5));
+console.log(divFunc(20,2));
