@@ -1,8 +1,8 @@
-var num = 10
+var num1 = 10
 var num2 = 20
 
-function somar(num, num2){
-    return num + num2
+function somar(a, b){
+    return a + b
 };
 
-console.log( somar(a, b))
+console.log(somar(num1, num2))
